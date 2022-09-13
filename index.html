@@ -13,33 +13,49 @@
             <h1 class="title">Hello Visitors</h1> 
             <nav>
                 <ul>
-                    <li id="link-1"> Contact us </li>
-                    <li id="link-2">Great Eats</li>
-                    <li id="link-3">Events</li>
+                   <li class="li-1"> <a href="#"> Contact us </a></li> 
+                   <li class="li-1"> <a href="#">Great Eats</a></li>
+                   <li class="li-1"> <a href="#">Events</a></li> 
                 </ul>
             </nav>
         </header>
 
         <main>
             <section>
-                <h2>Welcome to the page</h2>
-            <div class="container">
-                <img src="./assets/merlin_161566521_4d72ba34-770d-4835-9095-710c24a11877-superJumbo.jpg" alt="park with person in it" >  
+                <h2 class="text-center">Welcome to the page</h2>
+            <div>
+                <img src="./assets/merlin_161566521_4d72ba34-770d-4835-9095-710c24a11877-superJumbo.jpg" alt="park with person in it" >
+                <figcaption class="text-center">Park in the city</figcaption>  
             </div>
             </section>
+            <section id="contact">
+                <h2 class="text-center">Contact Me</h2>
+                <form>
+                  <ul>
+                    <li>
+                      <label class="text-right" for="name">Name:</label>
+                      <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                      <label class="text-right" for="email">Email:</label>
+                      <input type="text" id="email" name="user-email">
+                    </li>
+                  </ul>
+                  <div class="text-center">
+                    <button type="submit">SEND</button>
+                  </div>
+                </form>
+              </section>
 
-            <section>
+
+            <footer>
                 <h3 class="footer">Thanks for stopping by</h3>
-            </section>
-
-    
+            </footer>
 
         </main>
           
 
-        <section>
 
-        </section>
     </body>
 
 </html>
