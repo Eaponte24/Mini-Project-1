@@ -1,0 +1,29 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header { 
+    position: fixed;
+    background-color: beige;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.container {
+    background-color: rgba(88, 52, 4, 0.623);
+    margin: 50px;
+
+}
+
+img {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+  }
